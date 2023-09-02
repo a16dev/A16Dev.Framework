@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = A16Dev.Domain.Abstractions
+build_property.ProjectDir = /home/peixoto/DEV/A16DEV/DotNet/A16Dev.Framework/A16Dev.Domain.Abstractions/
