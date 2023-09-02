@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net7.0;net6.0;net5.0;netstandard2.1;netcoreapp3.1</TargetFrameworks>
+		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+		<Description>Abstractions for persistence-related operations (Repositories, Unit of Work, data entities)</Description>
+		<Company>$(Authors)</Company>
+		<Authors>Charalambos Hadjiantoniou</Authors>
+		<Title>CH - Data.Abstractions</Title>
+		<PackageIcon>logo-duck.png</PackageIcon>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Copyright>$(Authors)</Copyright>
+		<RepositoryUrl>https://github.com/A16Dev/A16Dev.Framework</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="logo-duck.png" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="A16Dev.Domain.Abstractions" Version="1.0.0" />
+	</ItemGroup>
+
+</Project>
